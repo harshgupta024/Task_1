@@ -1,0 +1,66 @@
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #a22b55;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form
+{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #75203f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: left;
+}
+
+label
+{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"]
+{
+    margin-right: 5px;
+}
+
+div[style="text-align: center"]
+{
+    text-align: center;
+}
+
+input[type="submit"]
+{
+    background-color: white;
+    color: black;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover
+{
+    background-color: red;
+}

@@ -1,0 +1,57 @@
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    width: 200px;
+}
+
+li
+{
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+.l1
+{
+    background-color: orange;
+}
+
+.l2
+{
+    background-color: lightblue;
+}
+
+li:last-child
+{
+    border-bottom: none;
+}
+
+li:hover
+{
+    background-color: rebeccapurple;
+    cursor: pointer;
+}
+
+.u2
+{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    width: 300px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.l3
+{
+    width: 100%;
+    background-color: grey;
+}
+
+.l4 
+{
+    width: 100%;
+    background-color: pink;
+}

@@ -1,0 +1,13 @@
+th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.t1
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 100%;
+}

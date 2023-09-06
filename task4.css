@@ -1,0 +1,61 @@
+nav a 
+{
+    position: fixed;
+    left: -120px;
+    transition: 0.3s;
+    padding: 10px;
+    width: 140px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+
+h1
+{
+    padding-left: 100px;
+    font-weight: 700;
+}
+
+p
+{
+    padding-left: 100px;
+}
+
+nav a:hover
+{
+    left: 0;
+}
+
+#Home
+{
+    top: 20px;
+    background-color: #04a96d;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#Address 
+{
+    top: 80px;
+    background-color: #2196f3;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#Social
+{
+    top: 140px;
+    background-color: #f44236;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#Info
+{
+    top: 200px;
+    background-color: #555555;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+ 

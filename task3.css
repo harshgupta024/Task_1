@@ -1,0 +1,21 @@
+.t1
+{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.t1 td
+{
+    padding: 10px;
+}
+
+.a1
+{
+    background-color: #04a96d;
+    color: white;
+}
+
+.a2
+{
+    background-color: #e8e9eb;
+}

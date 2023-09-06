@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    
+</head>
+
+<body>
+    <form action="submit.php" method="POST">
+        <table align="center" border="1" cellspacing="0">
+            <caption>Registration Form</caption>
+            
+            <tr>
+                <th><label for="full_name">Full Name</label></th>
+                <td><input type="text" name="full_name" id="full_name" style="width: 97%" required></td>
+            </tr>
+            
+            <tr>
+                <th><label for="last_name">Last Name</label></th>
+                <td><input type="text" name="last_name" id="last_name" style="width: 97%" required></td>
+            </tr>
+            
+            <tr>
+                <th><label for="password">Password</label></th>
+                <td><input type="password" name="password" id="password" style="width: 97%" required></td>
+            </tr>
+            
+            <tr>
+                <th><label for="re_password">Re-Enter Password</label></th>
+                <td><input type="password" name="re_password" id="re_password" style="width: 97%" required></td>
+            </tr>
+            
+            <tr>
+                <th><label>Gender</label></th>
+                <td>
+                    <input type="radio" name="gender" value="Male">Male<br>
+                    <input type="radio" name="gender" value="Female">Female
+                </td>
+            </tr>
+            
+            <tr>
+                <th><label for="age">Age</label></th>
+                <td><input type="text" name="age" id="age" style="width: 97%" required></td>
+            </tr>
+            
+            
+            <tr>
+                <th><label for="phone">Phone Number</label></th>
+                <td><input type="text" name="phone" id="phone" style="width: 97%" required></td>
+            </tr>
+            
+            <tr>
+                <th><label for="address">Address</label></th>
+                <td><textarea name="address" id="address" style="width: 97%"></textarea></td>
+            </tr>
+            
+            <tr>
+                <th><label for="state">State</label></th>
+                <td><input type="text" name="state" id="state" style="width: 97%" required></td>
+            </tr>
+            
+            
+            <tr>
+                <th><label for="country">Country</label></th>
+                <td>
+                    <select name="country" id="country" required>
+                        <option value="">Choose Your Country</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Japan">Japan</option>
+                    </select>
+                </td>
+            </tr>
+            
+            <tr>
+                <th><label>Languages known</label></th>
+                <td>
+                    <input type="checkbox" name="languages[]" value="english">English
+                    <input type="checkbox" name="languages[]" value="kannada">Kannada
+                    <input type="checkbox" name="languages[]" value="hindi">Hindi
+                    <input type="checkbox" name="languages[]" value="telugu">Telugu
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="declaration" id="declaration" required>
+                    <label for="declaration">Hereby I declare all the given details are true</label>
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2" align="right">Login in to <a href="#">Ethnus</a> Website</td>
+            </tr>
+            
+        </table>
+        <div style="text-align: center">
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</body>
+</html>

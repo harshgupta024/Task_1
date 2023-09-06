@@ -1,0 +1,90 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.image-container
+{
+    text-align: center;
+}
+
+.image-container img
+{
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+
+label
+{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"]
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"]
+{
+    background-color: #4ab052;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 0%;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+input[type="submit"]:hover
+{
+    background-color: #007B46;
+}
+
+.forg
+{
+    margin-left: 85%;
+    display: inline;
+}
+
+.forg a
+{
+    color: black;
+}
+
+.remember
+{
+    margin-bottom: 20px;
+}
+
+.remember label
+{
+    display: inline;
+}
+
+.cancel-button
+{
+    background-color: red !important;
+    color: white;
+    width: 80px !important;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cancel-button:hover
+{
+    background-color: darkred;
+}
